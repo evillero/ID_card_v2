@@ -221,6 +221,7 @@ void id_input_name_scene_on_enter(void* context) {
     App* app = context;
     text_input_reset(app->text_input);
     text_input_set_header_text(app->text_input, "Enter Name:");
+    text_input_set_minimum_length(app->text_input, 0);
     text_input_set_result_callback(
         app->text_input, id_text_input_callback, app, app->temp_buffer, FIELD_SIZE, true);
     view_dispatcher_switch_to_view(app->view_dispatcher, IDScenesTextInputView);
@@ -244,6 +245,7 @@ void id_input_email_scene_on_enter(void* context) {
     App* app = context;
     text_input_reset(app->text_input);
     text_input_set_header_text(app->text_input, "Enter Email:");
+    text_input_set_minimum_length(app->text_input, 0);
     text_input_set_result_callback(
         app->text_input, id_text_input_callback, app, app->temp_buffer, FIELD_SIZE, true);
     view_dispatcher_switch_to_view(app->view_dispatcher, IDScenesTextInputView);
@@ -267,6 +269,7 @@ void id_input_tel_scene_on_enter(void* context) {
     App* app = context;
     text_input_reset(app->text_input);
     text_input_set_header_text(app->text_input, "Enter Tel:");
+    text_input_set_minimum_length(app->text_input, 0);
     text_input_set_result_callback(
         app->text_input, id_text_input_callback, app, app->temp_buffer, FIELD_SIZE, true);
     view_dispatcher_switch_to_view(app->view_dispatcher, IDScenesTextInputView);
@@ -290,6 +293,7 @@ void id_input_addr_scene_on_enter(void* context) {
     App* app = context;
     text_input_reset(app->text_input);
     text_input_set_header_text(app->text_input, "Enter Address:");
+    text_input_set_minimum_length(app->text_input, 0);
     text_input_set_result_callback(
         app->text_input, id_text_input_callback, app, app->temp_buffer, FIELD_SIZE, true);
     view_dispatcher_switch_to_view(app->view_dispatcher, IDScenesTextInputView);
@@ -313,6 +317,7 @@ void id_input_notes_scene_on_enter(void* context) {
     App* app = context;
     text_input_reset(app->text_input);
     text_input_set_header_text(app->text_input, "Enter Notes:");
+    text_input_set_minimum_length(app->text_input, 0);
     text_input_set_result_callback(
         app->text_input, id_text_input_callback, app, app->temp_buffer, FIELD_SIZE, true);
     view_dispatcher_switch_to_view(app->view_dispatcher, IDScenesTextInputView);
