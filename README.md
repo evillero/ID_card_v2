@@ -24,11 +24,8 @@ After entering data, users can view their ID card. The application will display 
 Saving Changes
 All changes to personal data are automatically saved when the user finishes inputting or editing.
 
-Note
-If the user does not want to enter specific data such as a phone number or address, they can leave that field blank. In that case, it is necessary to leave "0", so that the application can interpret the format correctly.
-
 # Author and Acknowledgments
-The 'ID Card v2' application is created by @evillero. This version was built upon the skeleton app provided by @codeallnight, with thanks to @WillyJL and @Torron.
+The 'ID Card v2' application is created by @evillero. This version was built upon the skeleton app provided by @codeallnight. Special thanks to @codeallnight, @WillyJL and @Torron.
 This app improved version of the ID card originally developed by @alanretgue.
 
 # Contact
